@@ -9,7 +9,7 @@
 .img_user{
     width: 400px;
     height: 350px;
-    background: url('이미지/유저이미지.png') no-repeat 250px 250px / left center; 
+    background: url('../이미지/유저이미지.png') no-repeat 250px 250px / left center; 
     margin-left: 10%;
 }
 
