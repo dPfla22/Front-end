@@ -1,14 +1,14 @@
 .login_box{
     background-color: #e2e2e2;
-    width: 800px;
-    height: 500px;
+    width: 750px;
+    height: 400px;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .img_user{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 350px;
     background-image: url('이미지/유저이미지.png'); 
     background-size: 250px 250px;
     background-position: left center;
@@ -27,5 +27,21 @@
     height: 10%;
 }
 
+.login_button{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
-    
+.login_button_in{
+    background-color: white;
+    border-style: bold;
+    border-color: #e2e2e2;
+    border-radius: 150px 140px;
+    width: 80px;
+    height: 40px;
+    font-size: 10px;
+
+}
