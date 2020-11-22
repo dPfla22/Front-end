@@ -9,10 +9,7 @@
 .img_user{
     width: 400px;
     height: 350px;
-    background-image: url('이미지/유저이미지.png'); 
-    background-size: 250px 250px;
-    background-position: left center;
-    background-repeat: no-repeat;
+    background: url('이미지/유저이미지.png') no-repeat 250px 250px / left center; 
     margin-left: 10%;
 }
 
@@ -37,7 +34,6 @@
 
 .login_button_in{
     background-color: white;
-    border-style: bold;
     border-color: #e2e2e2;
     border-radius: 150px 140px;
     width: 80px;
