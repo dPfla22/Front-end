@@ -1,11 +1,13 @@
 .login_box{
     position: relative;
-    background-color: #e2e2e2;
+    background-color: #e1e1e1;
     width: 750px;
     height: 400px;
     margin: auto;
     margin-top: 10%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .img_user{
@@ -24,7 +26,7 @@
     height: 10%;
     border: none;
     border-bottom: 1px solid black;
-    background-color: #e2e2e2;
+    background-color: #e1e1e1;
 }
 
 .login_button{
@@ -37,5 +39,5 @@
     font-size: 10px;
     float: right;
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
