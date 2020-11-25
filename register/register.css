@@ -68,5 +68,5 @@ html, body {
 }
 
 .register_button:hover{
-    clike
+    cursor: pointer;
 }
