@@ -1,5 +1,5 @@
 .login_box{
-    /* position: relative; */
+    position: relative;
     background-color: #e1e1e1;
     width: 750px;
     height: 400px;
@@ -30,7 +30,6 @@
 }
 
 .login_button{
-    /* position: relative; */
     background-color: white;
     border-radius: 150px 140px;
     border: 1px solid #afafaf;
