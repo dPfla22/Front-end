@@ -61,8 +61,11 @@ html, body {
     width: 130px;
     height: 40px;
     font-size: 10px;
-    float: right;
     margin-right: 20px;
     margin-top: 40px;
     color: #e2e2e2
+}
+
+.register_button:hover{
+    cursor: pointer;
 }
