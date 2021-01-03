@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  background-image: url(./main.jpg);
+  background-position: -390px -105px;
+  background-repeat: no-repeat;
+  background-size: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user{
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+#user-img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.main-center{
+  display: flex;
+  justify-content: center;
+}
+
+.main-center img{
+  width: 450px;
+  position: relative;
+  padding-right: 150px;
+  top: -40px;
+}
+
+#title{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+}
+
+#title h1{
+  color: white;
+  font-size: 120px;
+  text-shadow: 0 0 3px black;
+}
+
+#title h2{
+  font-size: 20px;
+  text-shadow: 0 0 3px gray;
+  color: white;
+}
+
+.join{
+  margin-left: 240px;
+}
+
+.join button{
+  border: none;
+  border-radius: 15px;
+  color: white;
+  width: 85px;
+  height: 45px;
+  font: medium;
+  outline: none;
+}
+
+.join button:hover{
+  cursor: pointer;
+}
+
+.join button:first-child{
+  background-color: #046FF3;
+}
+
+.join button:nth-child(2){
+  margin-left: 25px;
+  background-color: #000000;
+}
